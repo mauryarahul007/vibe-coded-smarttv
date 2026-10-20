@@ -1,0 +1,14 @@
+# One package per line. Conservative: ads/recs/promos only. Google core is KEPT
+# (Play Store, Play Services, Assistant/katniss, Cast, Gboard, Settings).
+# Verify against the "TCL/vendor packages" section of debloat.sh output, then extend.
+
+# Google TV recommendation / promo surfaces (safe once CleanTV is Home)
+com.google.android.tvrecommendations
+com.google.android.leanbacklauncher.recommendations
+com.google.android.play.games
+com.google.android.videos
+com.google.android.music
+com.google.android.youtube.tvmusic
+
+# Add TCL packages you confirmed on your own TV below, e.g.:
+# com.tcl.<name>
